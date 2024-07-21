@@ -2,17 +2,19 @@
 
 |本期版本| 上期版本
 |:---:|:---:
-`Mon Jan  2 01:19:00 CST 2023` | -
+`Sun Jul 21 11:43:32 CST 2024` | -
 
-## macOS
+## Install
 
-`Monterey`
+### macOS
+
+`Ventura`、`Monterey`
 
 ```bash
 brew install vagrant
 ```
 
-## Ubuntu
+### Ubuntu
 
 `22.04`
 

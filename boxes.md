@@ -2,7 +2,7 @@
 
 |本期版本| 上期版本
 |:---:|:---:
-`Mon Jan  2 01:19:13 CST 2023` | -
+`Sun Jul 21 11:43:14 CST 2024` | -
 
 ## Tools
 
@@ -18,8 +18,19 @@ brew install curl jq
 apt-get install -y curl jq
 ```
 
+## Ubuntu
 
-## 20.04 LTS x64
+> `22.04 LTS x64`
+
+```bash
+vagrant box add ubuntu/jammy64
+```
+
+```bash
+curl -fsSL https://app.vagrantup.com/ubuntu/boxes/jammy64 | jq '.versions[0].providers[0].url'
+```
+
+> `20.04 LTS x64`
 
 ```bash
 vagrant box add ubuntu/focal64
@@ -29,7 +40,7 @@ vagrant box add ubuntu/focal64
 curl -fsSL https://app.vagrantup.com/ubuntu/boxes/focal64 | jq '.versions[0].providers[0].url'
 ```
 
-## 16.04 LTS x86
+> `16.04 LTS x86`
 
 ```bash
 vagrant box add ubuntu/xenial32
