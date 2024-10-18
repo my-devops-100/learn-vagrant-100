@@ -2,7 +2,7 @@
 
 |本期版本| 上期版本
 |:---:|:---:
-`Sun Jul 21 11:43:32 CST 2024` | -
+`Fri Oct 18 10:57:43 CST 2024` | `Sun Jul 21 11:43:32 CST 2024`
 
 ## Install
 
@@ -35,7 +35,7 @@ sudo rm -f ${name}
 
 ## provision 
 
-> `cloud-init`: [`https://github.com/hashicorp/vagrant/issues/5571#issuecomment-120430700`](https://github.com/hashicorp/vagrant/issues/5571#issuecomment-120430700)
+> `cloud-init`: <https://github.com/hashicorp/vagrant/issues/5571#issuecomment-120430700>
 
 ```bash
 config.vm.provision "shell", inline: "sleep 60"
@@ -44,6 +44,6 @@ config.vm.provision "shell", inline: "sleep 60"
 
 ## Ref
 
-* [https://www.vagrantup.com/](https://www.vagrantup.com/)
+* <https://www.vagrantup.com/>
 * [Vagrant Cookbook - Second Edition](https://leanpub.com/vagrantcookbook) 、[Vagrant Cookbook - First Edition](https://1lib.us/book/2610987/b56779?id=2610987&secret=b56779&dsource=recommend)
 * [熟练使用vagrant](https://www.junmajinlong.com/virtual/index/#vagrant)
